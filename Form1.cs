@@ -25,8 +25,8 @@ namespace Cuentas_ITECI_Consulta
         private void Form1_Load(object sender, EventArgs e)
         {
             MessageBox.Show(this, "Ingrese el nombre del estudiante, después presione Enter", "Inicio", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            LoginForm MyLoginWin = new LoginForm();
-            MyLoginWin.Show();
+            //LoginForm MyLoginWin = new LoginForm();
+            //MyLoginWin.Show();
             tbName.Select();
             tbName.Focus();
         }
@@ -66,6 +66,16 @@ namespace Cuentas_ITECI_Consulta
                     MetroMessageBox.Show(this, "El alumno no existe en las bases de datos. Verifique el nombre o comunique al Departamento de Sistemas", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+        private void btnLimpiar_Click(object sender, EventArgs e) 
+        {
+            tbName.Text = " ";
+            tbeMail.Text = " ";
+            tbGrupo.Text = " ";
+            tbModalidad.Text = " ";
+            tbPassword.Text = " ";
+            tbServo.Text = " ";
+            tbUser.Text = " ";
         }
     }
 }

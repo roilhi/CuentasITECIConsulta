@@ -1,0 +1,97 @@
+U:\ConsiltaCuentasITECI\bin\Debug\snappy32.dll
+U:\ConsiltaCuentasITECI\bin\Debug\snappy64.dll
+U:\ConsiltaCuentasITECI\bin\Debug\libzstd.dll
+U:\ConsiltaCuentasITECI\bin\Debug\mongocrypt.dll
+U:\ConsiltaCuentasITECI\bin\Debug\Cuentas ITECI Consulta.exe.config
+U:\ConsiltaCuentasITECI\bin\Debug\Cuentas ITECI Consulta.exe
+U:\ConsiltaCuentasITECI\bin\Debug\Cuentas ITECI Consulta.pdb
+U:\ConsiltaCuentasITECI\bin\Debug\DnsClient.dll
+U:\ConsiltaCuentasITECI\bin\Debug\MetroFramework.Design.dll
+U:\ConsiltaCuentasITECI\bin\Debug\MetroFramework.dll
+U:\ConsiltaCuentasITECI\bin\Debug\MetroFramework.Fonts.dll
+U:\ConsiltaCuentasITECI\bin\Debug\MongoDB.Bson.dll
+U:\ConsiltaCuentasITECI\bin\Debug\MongoDB.Driver.Core.dll
+U:\ConsiltaCuentasITECI\bin\Debug\MongoDB.Driver.dll
+U:\ConsiltaCuentasITECI\bin\Debug\MongoDB.Libmongocrypt.dll
+U:\ConsiltaCuentasITECI\bin\Debug\SharpCompress.dll
+U:\ConsiltaCuentasITECI\bin\Debug\System.Buffers.dll
+U:\ConsiltaCuentasITECI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+U:\ConsiltaCuentasITECI\bin\Debug\DnsClient.xml
+U:\ConsiltaCuentasITECI\bin\Debug\MongoDB.Bson.xml
+U:\ConsiltaCuentasITECI\bin\Debug\MongoDB.Driver.xml
+U:\ConsiltaCuentasITECI\bin\Debug\MongoDB.Driver.Core.xml
+U:\ConsiltaCuentasITECI\bin\Debug\System.Buffers.xml
+U:\ConsiltaCuentasITECI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+U:\ConsiltaCuentasITECI\obj\Debug\Cuentas ITECI Consulta.csproj.AssemblyReference.cache
+U:\ConsiltaCuentasITECI\obj\Debug\Cuentas_ITECI_Consulta.Form1.resources
+U:\ConsiltaCuentasITECI\obj\Debug\Cuentas_ITECI_Consulta.Properties.Resources.resources
+U:\ConsiltaCuentasITECI\obj\Debug\Cuentas ITECI Consulta.csproj.GenerateResource.cache
+U:\ConsiltaCuentasITECI\obj\Debug\Cuentas ITECI Consulta.csproj.CoreCompileInputs.cache
+U:\ConsiltaCuentasITECI\obj\Debug\Cuentas ITECI Consulta.csproj.CopyComplete
+U:\ConsiltaCuentasITECI\obj\Debug\Cuentas ITECI Consulta.exe
+U:\ConsiltaCuentasITECI\obj\Debug\Cuentas ITECI Consulta.pdb
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\snappy32.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\snappy64.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\libzstd.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\mongocrypt.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\Cuentas ITECI Consulta.exe.config
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\Cuentas ITECI Consulta.exe
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\Cuentas ITECI Consulta.pdb
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\DnsClient.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\MetroFramework.Design.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\MetroFramework.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\MongoDB.Bson.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\MongoDB.Driver.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\SharpCompress.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\System.Buffers.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\DnsClient.xml
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\MongoDB.Bson.xml
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\MongoDB.Driver.xml
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\System.Buffers.xml
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\obj\Debug\Cuentas ITECI Consulta.csproj.AssemblyReference.cache
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\obj\Debug\Cuentas_ITECI_Consulta.Form1.resources
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\obj\Debug\Cuentas_ITECI_Consulta.Properties.Resources.resources
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\obj\Debug\Cuentas ITECI Consulta.csproj.GenerateResource.cache
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\obj\Debug\Cuentas ITECI Consulta.csproj.CoreCompileInputs.cache
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\obj\Debug\Cuentas ITECI Consulta.csproj.CopyComplete
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\obj\Debug\Cuentas ITECI Consulta.exe
+C:\Users\Roilhi Ibarra\Documents\ConsiltaCuentasITECI\obj\Debug\Cuentas ITECI Consulta.pdb
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\snappy32.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\snappy64.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\libzstd.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\mongocrypt.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\Cuentas ITECI Consulta.exe.config
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\Cuentas ITECI Consulta.exe
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\Cuentas ITECI Consulta.pdb
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\DnsClient.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\MetroFramework.Design.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\MetroFramework.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\MongoDB.Bson.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\MongoDB.Driver.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\SharpCompress.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\System.Buffers.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\DnsClient.xml
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\MongoDB.Bson.xml
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\MongoDB.Driver.xml
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\System.Buffers.xml
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\obj\Debug\Cuentas ITECI Consulta.csproj.AssemblyReference.cache
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\obj\Debug\Cuentas_ITECI_Consulta.Form1.resources
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\obj\Debug\Cuentas_ITECI_Consulta.Properties.Resources.resources
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\obj\Debug\Cuentas ITECI Consulta.csproj.GenerateResource.cache
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\obj\Debug\Cuentas ITECI Consulta.csproj.CoreCompileInputs.cache
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\obj\Debug\Cuentas ITECI Consulta.csproj.CopyComplete
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\obj\Debug\Cuentas ITECI Consulta.exe
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\obj\Debug\Cuentas ITECI Consulta.pdb
+C:\Users\Roilhi Ibarra\Documents\Cuentas ITECI Consulta\obj\Debug\Cuentas_ITECI_Consulta.LoginForm.resources

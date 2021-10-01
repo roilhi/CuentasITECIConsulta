@@ -45,7 +45,7 @@ namespace Cuentas_ITECI_Consulta
             this.label7 = new System.Windows.Forms.Label();
             this.tbeMail = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnPrint = new System.Windows.Forms.Button();
+            this.btnLimpiar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -186,21 +186,22 @@ namespace Cuentas_ITECI_Consulta
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
-            // btnPrint
+            // btnLimpiar
             // 
-            this.btnPrint.Location = new System.Drawing.Point(380, 492);
-            this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(174, 46);
-            this.btnPrint.TabIndex = 15;
-            this.btnPrint.Text = "Imprime Oficio";
-            this.btnPrint.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Location = new System.Drawing.Point(380, 492);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(174, 46);
+            this.btnLimpiar.TabIndex = 15;
+            this.btnLimpiar.Text = "LIMPIAR";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(929, 576);
-            this.Controls.Add(this.btnPrint);
+            this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tbeMail);
             this.Controls.Add(this.label7);
@@ -242,7 +243,7 @@ namespace Cuentas_ITECI_Consulta
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox tbeMail;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnPrint;
+        private System.Windows.Forms.Button btnLimpiar;
     }
 }
 

@@ -1,4 +1,4 @@
-# ConsiltaCuentasITECI
+# Consulta Cuentas ITECI
 C# Aplicación Windows Forms para consultar cuentas de estudiantes
 
 # Nota importante

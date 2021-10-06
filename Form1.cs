@@ -50,21 +50,30 @@ namespace Cuentas_ITECI_Consulta
                 {
                     string modalidad = BsonDoc["modalidad"].AsString;
                     tbModalidad.Text = modalidad;
-                    string grupo = BsonDoc["group"].AsString;
-                    tbGrupo.Text = grupo;
-                    string matricula = BsonDoc["servo_id"].AsString;
-                    tbServo.Text = matricula;
-                    string userFenix = BsonDoc["moodleUser"].AsString;
-                    tbUser.Text = userFenix;
-                    string password = BsonDoc["password"].AsString;
-                    tbPassword.Text = password;
-                    string email = BsonDoc["email"].AsString;
-                    tbeMail.Text = email;
+                    if (modalidad == "escolarizado")
+                    {
+                        tbPassword.Text = BsonDoc["password"].AsString;
+                        tbeMail.Text = BsonDoc["email"].AsString;
+                    }
+                    else if (modalidad == "semiescolarizado") 
+                    {
+                        string grupo = BsonDoc["group"].AsString;
+                        tbGrupo.Text = grupo;
+                        string matricula = BsonDoc["servo_id"].AsString;
+                        tbServo.Text = matricula;
+                        string userFenix = BsonDoc["moodleUser"].AsString;
+                        tbUser.Text = userFenix;
+                        string password = BsonDoc["password"].AsString;
+                        tbPassword.Text = password;
+                        string email = BsonDoc["email"].AsString;
+                        tbeMail.Text = email;
+                    }
                 }
-                catch 
+                catch
                 {
                     MetroMessageBox.Show(this, "El alumno no existe en las bases de datos. Verifique el nombre o comunique al Departamento de Sistemas", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+
             }
         }
         private void btnLimpiar_Click(object sender, EventArgs e) 

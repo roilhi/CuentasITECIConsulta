@@ -24,18 +24,33 @@ namespace Cuentas_ITECI_Consulta
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show(this, "Ingrese el nombre del estudiante, después presione Enter", "Inicio", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(this, "Ingrese los apellidos y posteriormente los nombres del estudiante, después presione Enter", "Inicio", MessageBoxButtons.OK, MessageBoxIcon.Information);
             //LoginForm MyLoginWin = new LoginForm();
             //MyLoginWin.Show();
-            tbName.Select();
-            tbName.Focus();
+            //tbName.Select();
+            //tbName.Focus();
+            tbLastName.Select();
+            tbLastName.Focus();
         }
-        private void tbName_KeyDown(object sender, KeyEventArgs e)
+
+        private void tbLastName_KeyDown(object sender, KeyEventArgs e) 
+        {
+            if (e.KeyCode == Keys.Enter) 
+            {
+                tbLastName.Text = tbLastName.Text.Trim().ToUpper();
+                tbFirstName.Select();
+                tbFirstName.Focus();
+            }
+        }
+        private void tbFirstName_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
-                tbName.Text = tbName.Text.Trim().ToUpper();
-                string theName = tbName.Text.Trim().ToUpper();
+                //tbName.Text = tbName.Text.Trim().ToUpper();
+                tbFirstName.Text = tbFirstName.Text.Trim().ToUpper();
+                //string theName = tbName.Text.Trim().ToUpper();
+                string theName = tbFirstName.Text.Trim().ToUpper() + " " + tbLastName.Text.Trim().ToUpper();
+                tbName.Text = theName;
                 //var settings = MongoClientSettings.FromConnectionString("mongodb+srv://itecidb2:iteci2021@clusteriteci.rnxhk.mongodb.net/Prepa_ITECI_Ens?connect=replicaSet");
                 //var settings = MongoClientSettings.FromConnectionString("mongodb+srv://itecidb:iteci2021@clusteriteci.rnxhk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
                     var settings = MongoClientSettings.FromConnectionString("mongodb+srv://itecidb:iteci2021@clusteriteci.rnxhk.mongodb.net/Prepa_ITECI_Ens?connect=replicaSet");
@@ -85,6 +100,8 @@ namespace Cuentas_ITECI_Consulta
             tbPassword.Text = " ";
             tbServo.Text = " ";
             tbUser.Text = " ";
+            tbFirstName.Text = "";
+            tbLastName.Text = "";
         }
     }
 }

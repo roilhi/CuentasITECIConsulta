@@ -127,3 +127,36 @@ C:\Users\Roilhi Ibarra\Documents\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Co
 C:\Users\Roilhi Ibarra\Documents\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.csproj.CoreCompileInputs.cache
 C:\Users\Roilhi Ibarra\Documents\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.exe
 C:\Users\Roilhi Ibarra\Documents\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.pdb
+D:\CuentasITECIConsulta\bin\Debug\snappy32.dll
+D:\CuentasITECIConsulta\bin\Debug\snappy64.dll
+D:\CuentasITECIConsulta\bin\Debug\libzstd.dll
+D:\CuentasITECIConsulta\bin\Debug\mongocrypt.dll
+D:\CuentasITECIConsulta\bin\Debug\Cuentas ITECI Consulta.exe.config
+D:\CuentasITECIConsulta\bin\Debug\Cuentas ITECI Consulta.exe
+D:\CuentasITECIConsulta\bin\Debug\Cuentas ITECI Consulta.pdb
+D:\CuentasITECIConsulta\bin\Debug\DnsClient.dll
+D:\CuentasITECIConsulta\bin\Debug\MetroFramework.Design.dll
+D:\CuentasITECIConsulta\bin\Debug\MetroFramework.dll
+D:\CuentasITECIConsulta\bin\Debug\MetroFramework.Fonts.dll
+D:\CuentasITECIConsulta\bin\Debug\MongoDB.Bson.dll
+D:\CuentasITECIConsulta\bin\Debug\MongoDB.Driver.Core.dll
+D:\CuentasITECIConsulta\bin\Debug\MongoDB.Driver.dll
+D:\CuentasITECIConsulta\bin\Debug\MongoDB.Libmongocrypt.dll
+D:\CuentasITECIConsulta\bin\Debug\SharpCompress.dll
+D:\CuentasITECIConsulta\bin\Debug\System.Buffers.dll
+D:\CuentasITECIConsulta\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CuentasITECIConsulta\bin\Debug\DnsClient.xml
+D:\CuentasITECIConsulta\bin\Debug\MongoDB.Bson.xml
+D:\CuentasITECIConsulta\bin\Debug\MongoDB.Driver.xml
+D:\CuentasITECIConsulta\bin\Debug\MongoDB.Driver.Core.xml
+D:\CuentasITECIConsulta\bin\Debug\System.Buffers.xml
+D:\CuentasITECIConsulta\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.csproj.AssemblyReference.cache
+D:\CuentasITECIConsulta\obj\Debug\Cuentas_ITECI_Consulta.Form1.resources
+D:\CuentasITECIConsulta\obj\Debug\Cuentas_ITECI_Consulta.LoginForm.resources
+D:\CuentasITECIConsulta\obj\Debug\Cuentas_ITECI_Consulta.Properties.Resources.resources
+D:\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.csproj.GenerateResource.cache
+D:\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.csproj.CoreCompileInputs.cache
+D:\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.csproj.CopyComplete
+D:\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.exe
+D:\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.pdb

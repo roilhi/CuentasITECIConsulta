@@ -16,7 +16,6 @@ namespace Cuentas_ITECI_Consulta
 {
     public partial class Form1 : MetroForm
     {
-        public bool userExists { get; }
         public Form1()
         {
             InitializeComponent();
@@ -31,6 +30,28 @@ namespace Cuentas_ITECI_Consulta
             //tbName.Focus();
             tbLastName.Select();
             tbLastName.Focus();
+        }
+        public bool alumnoExiste(string nombreCompleto)
+        {
+            bool result = false;
+            var settings = MongoClientSettings.FromConnectionString("mongodb+srv://itecidb2:iteci2021@clusteriteci.rnxhk.mongodb.net/Prepa_ITECI_Ens?connect=replicaSet");
+            var client = new MongoClient(settings);
+            var database = client.GetDatabase("estudiantes_ITECI");
+            var collection = database.GetCollection<BsonDocument>("infoMails");
+            var filter = Builders<BsonDocument>.Filter.Eq("nombre_completo", nombreCompleto);
+            var BsonDoc = collection.Find(filter).FirstOrDefault();
+            try
+            {
+                if (BsonDoc != null)
+                {
+                    result = true;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Error, el alumno no existe, favor de contactar al departamento de sistemas");
+            }
+            return result;
         }
 
         private void tbLastName_KeyDown(object sender, KeyEventArgs e) 
@@ -49,48 +70,62 @@ namespace Cuentas_ITECI_Consulta
                 //tbName.Text = tbName.Text.Trim().ToUpper();
                 tbFirstName.Text = tbFirstName.Text.Trim().ToUpper();
                 //string theName = tbName.Text.Trim().ToUpper();
-                string theName = tbFirstName.Text.Trim().ToUpper() + " " + tbLastName.Text.Trim().ToUpper();
+                string theName = tbLastName.Text.Trim().ToUpper() + " " + tbFirstName.Text.Trim().ToUpper();
                 tbName.Text = theName;
+
+                if (alumnoExiste(theName))
+                {
+                    var settings = MongoClientSettings.FromConnectionString("mongodb+srv://itecidb2:iteci2021@clusteriteci.rnxhk.mongodb.net/Prepa_ITECI_Ens?connect=replicaSet");
+                    var client = new MongoClient(settings);
+                    var database = client.GetDatabase("estudiantes_ITECI");
+                    var collection = database.GetCollection<BsonDocument>("infoMails");
+                    var filter = Builders<BsonDocument>.Filter.Eq("nombre_completo", theName);
+                    var BsonDoc = collection.Find(filter).FirstOrDefault();
+                    tbPassword.Text = BsonDoc["password"].AsString;
+                    tbeMail.Text = BsonDoc["email"].AsString;
+                    string grupo = BsonDoc["grupo"].AsString;
+                    tbGrupo.Text = grupo;
+                    string matricula = BsonDoc["user"].AsString;
+                    tbServo.Text = matricula;
+                    string userFenix = BsonDoc["moodle"].AsString;
+                    tbUser.Text = userFenix;
+                    tbModalidad.Text = "semiescolarizado";
+                }
+                else
+                {
+                  MessageBox.Show(this, "El alumno no existe en las bases de datos. Verifique el nombre o comunique al Departamento de Sistemas", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);  
+                }
+
                 //var settings = MongoClientSettings.FromConnectionString("mongodb+srv://itecidb2:iteci2021@clusteriteci.rnxhk.mongodb.net/Prepa_ITECI_Ens?connect=replicaSet");
                 //var settings = MongoClientSettings.FromConnectionString("mongodb+srv://itecidb:iteci2021@clusteriteci.rnxhk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
-                    var settings = MongoClientSettings.FromConnectionString("mongodb+srv://itecidb:iteci2021@clusteriteci.rnxhk.mongodb.net/Prepa_ITECI_Ens?connect=replicaSet");
-                    var client = new MongoClient(settings);
-                    var database = client.GetDatabase("Prepa_ITECI_Ens");
-                    var collection = database.GetCollection<BsonDocument>("Mails_Prepa_Ens");
-                    var filter = Builders<BsonDocument>.Filter.Eq("WholeName", theName);
-                    var fieldValueIsNullFilter = Builders<BsonDocument>.Filter.Eq("WholeName", BsonNull.Value.ToString());
-                    //Console.WriteLine(fieldValueIsNullFilter);
-                    var BsonDoc = collection.Find(filter).FirstOrDefault();
-                try
-                {
-                    string modalidad = BsonDoc["modalidad"].AsString;
-                    tbModalidad.Text = modalidad;
-                    if (modalidad == "escolarizado")
-                    {
-                        tbPassword.Text = BsonDoc["password"].AsString;
-                        tbeMail.Text = BsonDoc["email"].AsString;
-                    }
-                    else if (modalidad == "semiescolarizado") 
-                    {
-                        string grupo = BsonDoc["group"].AsString;
-                        tbGrupo.Text = grupo;
-                        string matricula = BsonDoc["servo_id"].AsString;
-                        tbServo.Text = matricula;
-                        string userFenix = BsonDoc["moodleUser"].AsString;
-                        tbUser.Text = userFenix;
-                        string password = BsonDoc["password"].AsString;
-                        tbPassword.Text = password;
-                        string email = BsonDoc["email"].AsString;
-                        tbeMail.Text = email;
-                    }
-                }
-                catch
-                {
-                    MetroMessageBox.Show(this, "El alumno no existe en las bases de datos. Verifique el nombre o comunique al Departamento de Sistemas", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+
+                //var filter = Builders<BsonDocument>.Filter.Eq("serie", serie);
+                // var fieldValueIsNullFilter = Builders<BsonDocument>.Filter.Eq("nombre_completo", BsonNull.Value.ToString());
+                //Console.WriteLine(fieldValueIsNullFilter);
+
+                // try
+                // {
+                // string modalidad = BsonDoc["modalidad"].AsString;
+                //    tbModalidad.Text = modalidad;
+                //if (modalidad == "escolarizado")
+                //{
+
+
+                //}
+                //else if (modalidad == "semiescolarizado") 
+                //{
+
+                //string password = BsonDoc["password"].AsString;
+                //tbPassword.Text = password;
+                //string email = BsonDoc["email"].AsString;
+                //tbeMail.Text = email;
+                //}
+                //}
+
 
             }
         }
+
         private void btnLimpiar_Click(object sender, EventArgs e) 
         {
             tbName.Text = " ";

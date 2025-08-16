@@ -85,11 +85,11 @@ namespace Cuentas_ITECI_Consulta
                     tbeMail.Text = BsonDoc["email"].AsString;
                     string grupo = BsonDoc["grupo"].AsString;
                     tbGrupo.Text = grupo;
-                    string matricula = BsonDoc["user"].AsString;
-                    tbServo.Text = matricula;
-                    string userFenix = BsonDoc["moodle"].AsString;
+                    // string matricula = BsonDoc["user"].AsString;
+                    // tbServo.Text = matricula;
+                    string userFenix = BsonDoc["usuario_moodle"].AsString;
                     tbUser.Text = userFenix;
-                    tbModalidad.Text = "semiescolarizado";
+                    // tbModalidad.Text = "semiescolarizado";
                 }
                 else
                 {
@@ -131,9 +131,9 @@ namespace Cuentas_ITECI_Consulta
             tbName.Text = " ";
             tbeMail.Text = " ";
             tbGrupo.Text = " ";
-            tbModalidad.Text = " ";
+            // tbModalidad.Text = " ";
             tbPassword.Text = " ";
-            tbServo.Text = " ";
+            // tbServo.Text = " ";
             tbUser.Text = " ";
             tbFirstName.Text = "";
             tbLastName.Text = "";

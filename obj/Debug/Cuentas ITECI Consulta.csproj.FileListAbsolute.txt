@@ -127,9 +127,6 @@ C:\Users\Roilhi Ibarra\Documents\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Co
 C:\Users\Roilhi Ibarra\Documents\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.csproj.CoreCompileInputs.cache
 C:\Users\Roilhi Ibarra\Documents\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.exe
 C:\Users\Roilhi Ibarra\Documents\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.pdb
-D:\CuentasITECIConsulta\bin\Debug\snappy32.dll
-D:\CuentasITECIConsulta\bin\Debug\snappy64.dll
-D:\CuentasITECIConsulta\bin\Debug\libzstd.dll
 D:\CuentasITECIConsulta\bin\Debug\mongocrypt.dll
 D:\CuentasITECIConsulta\bin\Debug\Cuentas ITECI Consulta.exe.config
 D:\CuentasITECIConsulta\bin\Debug\Cuentas ITECI Consulta.exe
@@ -157,6 +154,45 @@ D:\CuentasITECIConsulta\obj\Debug\Cuentas_ITECI_Consulta.LoginForm.resources
 D:\CuentasITECIConsulta\obj\Debug\Cuentas_ITECI_Consulta.Properties.Resources.resources
 D:\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.csproj.GenerateResource.cache
 D:\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.csproj.CoreCompileInputs.cache
-D:\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.csproj.CopyComplete
 D:\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.exe
 D:\CuentasITECIConsulta\obj\Debug\Cuentas ITECI Consulta.pdb
+D:\CuentasITECIConsulta\obj\Debug\Cuentas .350AE93F.Up2Date
+D:\CuentasITECIConsulta\bin\Debug\AWSSDK.Core.dll
+D:\CuentasITECIConsulta\bin\Debug\AWSSDK.SecurityToken.dll
+D:\CuentasITECIConsulta\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CuentasITECIConsulta\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CuentasITECIConsulta\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\CuentasITECIConsulta\bin\Debug\Microsoft.Win32.Registry.dll
+D:\CuentasITECIConsulta\bin\Debug\Snappier.dll
+D:\CuentasITECIConsulta\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\CuentasITECIConsulta\bin\Debug\System.Memory.dll
+D:\CuentasITECIConsulta\bin\Debug\System.Numerics.Vectors.dll
+D:\CuentasITECIConsulta\bin\Debug\System.Security.AccessControl.dll
+D:\CuentasITECIConsulta\bin\Debug\System.Security.Principal.Windows.dll
+D:\CuentasITECIConsulta\bin\Debug\System.Text.Encoding.CodePages.dll
+D:\CuentasITECIConsulta\bin\Debug\System.Text.Encodings.Web.dll
+D:\CuentasITECIConsulta\bin\Debug\System.Text.Json.dll
+D:\CuentasITECIConsulta\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\CuentasITECIConsulta\bin\Debug\System.ValueTuple.dll
+D:\CuentasITECIConsulta\bin\Debug\ZstdSharp.dll
+D:\CuentasITECIConsulta\bin\Debug\AWSSDK.Core.pdb
+D:\CuentasITECIConsulta\bin\Debug\AWSSDK.Core.xml
+D:\CuentasITECIConsulta\bin\Debug\AWSSDK.SecurityToken.pdb
+D:\CuentasITECIConsulta\bin\Debug\AWSSDK.SecurityToken.xml
+D:\CuentasITECIConsulta\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\CuentasITECIConsulta\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\CuentasITECIConsulta\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\CuentasITECIConsulta\bin\Debug\Microsoft.Win32.Registry.xml
+D:\CuentasITECIConsulta\bin\Debug\MongoDB.Libmongocrypt.pdb
+D:\CuentasITECIConsulta\bin\Debug\SharpCompress.pdb
+D:\CuentasITECIConsulta\bin\Debug\Snappier.xml
+D:\CuentasITECIConsulta\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\CuentasITECIConsulta\bin\Debug\System.Memory.xml
+D:\CuentasITECIConsulta\bin\Debug\System.Numerics.Vectors.xml
+D:\CuentasITECIConsulta\bin\Debug\System.Security.AccessControl.xml
+D:\CuentasITECIConsulta\bin\Debug\System.Security.Principal.Windows.xml
+D:\CuentasITECIConsulta\bin\Debug\System.Text.Encoding.CodePages.xml
+D:\CuentasITECIConsulta\bin\Debug\System.Text.Encodings.Web.xml
+D:\CuentasITECIConsulta\bin\Debug\System.Text.Json.xml
+D:\CuentasITECIConsulta\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\CuentasITECIConsulta\bin\Debug\System.ValueTuple.xml
